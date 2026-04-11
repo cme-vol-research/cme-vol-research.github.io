@@ -13,4 +13,10 @@
   <url>
     <loc>http://localhost:3000/eda-advanced</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/modeling-linear-regression</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/xgboost-modeling</loc>
+  </url>
 </urlset>
