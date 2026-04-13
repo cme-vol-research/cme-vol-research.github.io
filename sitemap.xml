@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3001/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000</loc>
+    <loc>http://localhost:3001</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/aws-l3-wrangling</loc>
+    <loc>http://localhost:3001/aws-l3-wrangling</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/eda-basic</loc>
+    <loc>http://localhost:3001/eda-basic</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/eda-advanced</loc>
+    <loc>http://localhost:3001/eda-advanced</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/modeling-linear-regression</loc>
+    <loc>http://localhost:3001/modeling-linear-regression</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/xgboost-modeling</loc>
+    <loc>http://localhost:3001/xgboost-modeling</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/cis-545-arima-garch-model-v4-12</loc>
+    <loc>http://localhost:3001/cis-545-arima-garch-model-v4-12</loc>
   </url>
 </urlset>
