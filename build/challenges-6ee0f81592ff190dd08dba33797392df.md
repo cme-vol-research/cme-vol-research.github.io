@@ -1,0 +1,7 @@
+# Description of Challenges / Obstacles Faced
+
+One of the biggest challenges of our project was the scale of the data. The approximately 50 GB of raw MBO CSV files were too large for a basic local workflow, so we had to move beyond pandas and use Spark on an EMR cluster. This added significant infrastructure overhead. We had to manage S3, cluster setup, file movement, and long runtimes before we could begin the actual analysis. In addition, the Databento MBO data had its own conventions. We had to learn how to interpret event types, timestamps, flag bits, and start-of-day snapshot rows before we could build a useful feature table.
+
+Performing EDA and modeling brought their own challenges. Every step had to account for the size of the dataset, which made exploration slower and model training more expensive. Simple changes often took a long time to rerun and evaluate. Furthermore, financial data is inherently difficult to model and forecast. Some patterns may be real, while others are just noise. That made it challenging to decide what features to use, how to tune the model, and how strongly to state our conclusions.
+
+Another challenge was the project itself as a team effort. We were balancing classes with work, family, and daily life while trying to keep steady progress. We had teammates across different time zones and even different continents. That meant the project was not just about technical work. It was also about communication, teamwork, and empathy.
