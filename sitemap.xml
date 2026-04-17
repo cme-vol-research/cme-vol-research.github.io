@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3013/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3013</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/notebook-workflow</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/aws-l3-wrangling</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/eda-basic</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/eda-advanced</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/modeling-linear-regression</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/xgboost-modeling</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/arima-garch-model-project</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/unsupervised-learning</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/conclusions</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/challenges</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3013/potentialnextsteps</loc>
+  </url>
+</urlset>
