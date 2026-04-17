@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3007/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3008/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3007</loc>
+    <loc>http://localhost:3008</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/aws-l3-wrangling</loc>
+    <loc>http://localhost:3008/aws-l3-wrangling</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/eda-basic</loc>
+    <loc>http://localhost:3008/eda-basic</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/eda-advanced</loc>
+    <loc>http://localhost:3008/eda-advanced</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/modeling-linear-regression</loc>
+    <loc>http://localhost:3008/modeling-linear-regression</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/xgboost-modeling</loc>
+    <loc>http://localhost:3008/xgboost-modeling</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/cis-545-arima-garch-model-v4-12</loc>
+    <loc>http://localhost:3008/arima-garch-model-project</loc>
   </url>
   <url>
-    <loc>http://localhost:3007/unsupervised-learning</loc>
+    <loc>http://localhost:3008/unsupervised-learning</loc>
   </url>
 </urlset>
