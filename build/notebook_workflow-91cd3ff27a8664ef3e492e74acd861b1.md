@@ -22,19 +22,22 @@ Use the notebooks in the order listed below, from top to bottom.
 
 - Run deeper EDA on volatility patterns, signal, and cross-symbol behavior. 
 
-- **Unsupervised_learning.ipynb** 
+## **Unsupervised_learning.ipynb** 
 
-- Study structure in the feature table with PCA, clustering, CUSUM, and SSA. 
+- Study structure in the feature table with PCA, clustering, CUSUM, and SSA.
 
-- **modeling_linear_regression.ipynb** 
+## **modeling_linear_regression.ipynb** 
 
-- Fit linear models for 60-second and 300-second realized volatility prediction. 
+- Fit linear models for 60-second and 300-second realized volatility prediction.
 
-- **XGBoost_modeling.ipynb** 
+ 
+## **XGBoost_modeling.ipynb** 
 
    - Fit XGBoost models for 60-second and 300-second volatility forecasting and compare to a persistence baseline. 
 
-## **cis_545_arima_garch_model_v4_12.ipynb** 
+## **arima_garch_model_project.ipynb** 
 
 - Fit ARIMA and GARCH models for time-series comparison. 
+
+ 
 
