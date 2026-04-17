@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: 9c202b7d-9ea8-4b57-b451-e49be90de883
+  title: CME Futures Volatility Prediction
+  description: Predicting short-horizon realized volatility from 375M rows of CME nanosecond-resolution MBO futures data
+  keywords: [volatility, futures, spark, machine-learning, big-data]
+  authors:
+    - name: Matthew Hoffman
+    - name: Melissa Cui
+    - name: Zoe Zhao
+    - name: Nandhu sriram
+
+  toc:
+    - file: intro.md
+    - file: notebook_workflow.md
+    - title: Data Pipeline
+      children:
+        - file: notebooks/AWS_L3_wrangling.ipynb
+    - title: Exploratory Analysis
+      children:
+        - file: notebooks/EDA_basic.ipynb
+        - file: notebooks/EDA_advanced.ipynb
+    - title: Modeling
+      children:
+        - file: notebooks/modeling_linear_regression.ipynb
+        - file: notebooks/XGBoost_modeling.ipynb
+        - file: notebooks/arima_garch_model_project.ipynb
+        - file: notebooks/Unsupervised_learning.ipynb
+    - file: conclusions.md
+      title: Conclusions / Key Findings
+    - file: challenges.md
+      title: Challenges and Obstacles Faced
+    - file: potentialnextsteps.md
+      title: Potential Next Steps
+
+site:
+  template: book-theme
