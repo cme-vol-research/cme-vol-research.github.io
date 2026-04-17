@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3009/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3010/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3009</loc>
+    <loc>http://localhost:3010</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/aws-l3-wrangling</loc>
+    <loc>http://localhost:3010/notebook-workflow</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/eda-basic</loc>
+    <loc>http://localhost:3010/aws-l3-wrangling</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/eda-advanced</loc>
+    <loc>http://localhost:3010/eda-basic</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/modeling-linear-regression</loc>
+    <loc>http://localhost:3010/eda-advanced</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/xgboost-modeling</loc>
+    <loc>http://localhost:3010/modeling-linear-regression</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/arima-garch-model-project</loc>
+    <loc>http://localhost:3010/xgboost-modeling</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/unsupervised-learning</loc>
+    <loc>http://localhost:3010/arima-garch-model-project</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/conclusions</loc>
+    <loc>http://localhost:3010/unsupervised-learning</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/challenges</loc>
+    <loc>http://localhost:3010/conclusions</loc>
   </url>
   <url>
-    <loc>http://localhost:3009/potentialnextsteps</loc>
+    <loc>http://localhost:3010/challenges</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3010/potentialnextsteps</loc>
   </url>
 </urlset>
