@@ -1,0 +1,45 @@
+# CME Futures Volatility Prediction
+
+Matthew Hoffman · Melissa Cui · Zoe Zhao · Nandhu Sriram
+
+Short-term volatility matters in futures markets. Traders care about it for execution. Market makers care about it for spread setting. Risk managers care about it for forward-looking signals. But it is hard to predict. The data is noisy. The patterns are short-lived. Recent volatility alone is already a strong baseline.
+
+This project studies whether CME market-by-order (MBO) data can help forecast short-horizon realized volatility. We build a 1-second feature table from raw Databento files, compare several modeling approaches, and study whether the data also shows useful structure across contracts and time. We also include a practical extension in the ARIMA/GARCH notebook, where GARCH-based volatility forecasts are applied to UX1 (VIX futures) data.
+
+## Objective
+
+The project has three main goals:
+
+- Forecast realized volatility at the 60-second and 300-second horizons using recent volatility and microstructure features.
+- Identify structure in the data using unsupervised methods such as PCA, clustering, and change-point analysis.
+- Include a practical extension by applying GARCH-based volatility forecasts in a cross-asset trading signal using UX1 / VIX futures data.
+
+## Models Used
+
+- Persistence baseline
+- Linear regression with Ridge and Lasso (scikit-learn)
+- XGBoost classification and regression
+- ARIMA and GARCH time-series models
+- PCA, t-SNE, hierarchical clustering, CUSUM, and SSA
+
+## Team
+
+| Full Name | SEAS Email |
+|---|---|
+| Matthew Hoffman | mchof42@seas.upenn.edu |
+| Melissa Cui | mel3939@seas.upenn.edu |
+| Zoe Zhao | zoersz@seas.upenn.edu |
+| Nandhu Sriram | nsriram@seas.upenn.edu |
+
+## Course
+
+CIS 5450 Big Data Analytics · University of Pennsylvania · Spring 2026
+
+## Stack
+
+Apache Spark · AWS EMR · S3 · Parquet · scikit-learn · XGBoost · ARIMA · GARCH(1,1) · PCA · MLflow
+
+## Datasets
+
+- **Primary:** Databento CME market-by-order data for 9 futures contracts, spanning 2025-11-15 to 2026-01-15
+- **Secondary:** UX1 / VIX futures data used for the ARIMA/GARCH extension
